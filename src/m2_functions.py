@@ -78,8 +78,19 @@ PThrm(54,78)
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
-jeff=rg.SimpleTurtle()
-jeff.pen=rg.Pen
+def turtles(x, y):
+    window=rg.TurtleWindow()
+    jeff=rg.SimpleTurtle()
+    bob=rg.SimpleTurtle()
+    jeff.pen=rg.Pen('green',x)
+    bob.pen=rg.Pen(y, 5)
+    jeff.forward(100)
+    bob.backward(100)
+    window.close_on_mouse_click()
+
+turtles(5, 'blue')
+
+turtles(15, 'yellow')
 
 
 ########## You can do it! I believe in you!! Love Eddie :)
