@@ -36,7 +36,7 @@ def main():
 #
 #   You may name the function and its parameters whatever you wish.
 #
-# TODO: 3b.  In main, CALL your function and print the returned value,
+# DONE: 3b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
 ###############################################################################
@@ -78,7 +78,11 @@ PThrm(54,78)
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+jeff=rg.SimpleTurtle()
+jeff.pen=rg.Pen
 
+
+########## You can do it! I believe in you!! Love Eddie :)
 
 ###############################################################################
 # TODO: 5.
