@@ -222,7 +222,7 @@ def try_methods_and_functions():
     lily.speed = 1
     draw_many_squares(lily, 2, 100, 30)
     lily.speed = 5
-    lily.pen=rg.Pen('35
+    lily.pen=rg.Pen('blue', 35)
     draw_many_squares(lily, 8, 300, 60)
     lily.pen = rg.Pen('black', 3)
     lily.backward(200)
