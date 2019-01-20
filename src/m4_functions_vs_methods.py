@@ -216,6 +216,21 @@ def try_methods_and_functions():
     #     draw_many_squares
     #   function defined above.  If you don't see why, ** ASK FOR HELP. **
     ###########################################################################
+    lily=rg.SimpleTurtle()
+    lily.pen=rg.Pen('blue',5)
+    lily.backward(150)
+    lily.speed = 1
+    draw_many_squares(lily, 2, 100, 30)
+    lily.speed = 5
+    lily.pen=rg.Pen('35
+    draw_many_squares(lily, 8, 300, 60)
+    lily.pen = rg.Pen('black', 3)
+    lily.backward(200)
+    lily.draw_circle(30)
+    draw_many_squares(lily,1,50,0)
+
+
+
 
 
 # -----------------------------------------------------------------------------
