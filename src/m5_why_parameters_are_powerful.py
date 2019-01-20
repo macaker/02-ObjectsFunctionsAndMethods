@@ -25,8 +25,16 @@ def main():
     #draw_circles(rg.Point(-200, 0))
     #better_draw_circles(rg.Point(0,0), 50)
     #better_draw_circles(rg.Point(5,5), 45)
-    even_better_draw_circles(rg.Point(0,0), 40, 15, 'blue', 10)
-    even_better_draw_circles(rg.Point(4,4), 20, 4, 'green', 3)
+    #even_better_draw_circles(rg.Point(0,0), 40, 15, 'blue', 10)
+    #even_better_draw_circles(rg.Point(4,4), 20, 4, 'green', 3)
+    even_better_draw_circles(rg.Point(0,0), 10, 2, 'red', 5 )
+    even_better_draw_circles(rg.Point(0, 0), 20, 2, 'orange', 5)
+    even_better_draw_circles(rg.Point(0, 0), 30, 2, 'yellow', 5)
+    even_better_draw_circles(rg.Point(0, 0), 40, 2, 'green', 5)
+    even_better_draw_circles(rg.Point(0, 0), 50, 2, 'blue', 5)
+    even_better_draw_circles(rg.Point(0, 0), 60, 2, 'indigo', 5)
+    even_better_draw_circles(rg.Point(0, 0), 70, 2, 'violet', 5)
+
     window.update()
     window.close_on_mouse_click()
 
@@ -201,7 +209,7 @@ def even_better_draw_circles(point, radius, number, color, thickness):
         turtle.draw_circle(radius* k)  # Radius 15, 30, 45, 60, ...
 
 ###############################################################################
-# TODO: 5.
+# DONE: 5.
 #
 # Finally, comment-out the existing calls to  even_better_draw_circles  and
 # add code in   main  to draw various circles that form a BEAUTIFUL picture!
